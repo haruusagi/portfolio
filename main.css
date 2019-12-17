@@ -42,11 +42,6 @@ main{
 .contents__left{
     width: 50vw;
     height: 100vh;
-    margin: 10px;
-    padding: 20px;
-}
-.contents__right{
-    height: 100vh;
 }
 
 footer{

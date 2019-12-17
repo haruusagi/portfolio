@@ -28,10 +28,6 @@ ul{
     align-items: center;
 }
 
-
-
-
-
 .contents__title{
     text-align: center;
     font-family: 'Fredericka the Great', cursive;
@@ -55,7 +51,7 @@ ul{
     border-left: 3px solid #dcdcdc;
 }
 .box{
-    margin: 5px;
+    margin: 25px;
     width: 200px;
     height: 70px;
     border: 1px solid #dcdcdc;
@@ -86,7 +82,13 @@ ul{
     padding: 5px;
     font-size: 12px;
 }
-
+.contact ul{
+    display: flex;
+    justify-content: center;
+}
+.contact ul li{
+    margin: 20px;
+}
 footer{
     text-align: center;
 }

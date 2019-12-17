@@ -38,15 +38,25 @@ main{
     text-align: center;
 }
 #hero{
-    width: 70vw;
+    width: 60vw;
     margin: 0 auto;
     height: auto;
     display: block;
     opacity: 0.5;
 }
-
-
-
+.contents{
+    margin: 50px;
+    display: flex;
+}
+.contents__left{
+    width: 50vw;
+    height: 100vh;
+    margin: 10px;
+    padding: 20px;
+}
+.contents__right{
+    height: 100vh;
+}
 
 footer{
     text-align: center;

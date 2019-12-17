@@ -22,7 +22,7 @@ ul{
     margin: 0 auto;
     width: 70%;
 }
-.about, .career, .work, .contact{
+.about, .skill, .career, .work, .contact{
     display: flex;
     flex-direction: column;
     align-items: center;

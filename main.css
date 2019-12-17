@@ -4,6 +4,8 @@ body{
     margin: 0;
     background-color: lavenderblush;
     color: rgba(85,85,85,1);
+    font-family: 'Fredericka the Great', cursive;
+    
 }
 a{
     text-decoration: none;
@@ -16,6 +18,7 @@ h1{
 }
 .header__logo{
     text-align: center;
+    font-size: 100px;
 }
 .header___menu ul{
     list-style: none;
@@ -25,10 +28,22 @@ h1{
 .header___menu ul li{
     margin: 20px;
     padding: 10px;
+    font-size: 30px;
 }
 main{
     text-align: center;
 }
+#hero{
+    width: 70vw;
+    margin: 0 auto;
+    height: auto;
+    display: block;
+    opacity: 0.5;
+}
+
+
+
+
 footer{
     text-align: center;
 }

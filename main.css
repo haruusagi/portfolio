@@ -12,9 +12,7 @@ a{
     width: 100%;
     height: 100%;
 }
-a:hover{
-    color: indianred;
-}
+
 ul{
     list-style: none;
 }
@@ -22,12 +20,24 @@ ul{
     margin: 0 auto;
     width: 70%;
 }
-.about, .skill, .career, .work, .contact{
+.about, .skill, .career, .work{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
+.about ul{
+    display: flex;
+    justify-content: center;
+}
+.about ul li{
+    margin: 50px;
+}
+.github {
+    color: black;
+}
+.twitter {
+    color: #00acee;
+}
 .contents__title{
     text-align: center;
     font-family: 'Fredericka the Great', cursive;
@@ -82,13 +92,7 @@ ul{
     padding: 5px;
     font-size: 14px;
 }
-.contact ul{
-    display: flex;
-    justify-content: center;
-}
-.contact ul li{
-    margin: 20px;
-}
+
 footer{
     text-align: center;
 }

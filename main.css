@@ -97,6 +97,12 @@ ul{
     font-size: 14px;
 }
 
+/* 虚無空間 */
+div.vacuity{
+    height: 8vh;
+}
+
+
 footer{
     text-align: center;
 }

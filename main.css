@@ -4,8 +4,6 @@ body{
     margin: 0;
     
     color: rgba(85,85,85,1);
-    
-    
 }
 a{
     color: #00cbe6;
@@ -28,6 +26,8 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 20px;
+    padding: 10px;
 }
 .about ul{
     display: flex;
@@ -43,9 +43,12 @@ ul{
     color: #00acee;
 }
 .contents__title{
+    background-image: url('./img/tape.png');
+    background-size:cover;
     text-align: center;
     font-family: 'Fredericka the Great', cursive;
 }
+
 .header-logo{
     text-align: center;
     font-size: 100px;
@@ -97,12 +100,8 @@ ul{
     font-size: 14px;
 }
 
-/* 虚無空間 */
-div.vacuity{
-    height: 8vh;
-}
-
-
 footer{
+    width: 100vw;
+    height: 100px;
     text-align: center;
 }

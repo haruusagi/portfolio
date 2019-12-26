@@ -28,6 +28,9 @@ ul{
     align-items: center;
     margin: 20px;
     padding: 10px;
+    border: 5px dashed #ffccdd;
+    border-radius: 10px;
+
 }
 .about ul{
     display: flex;

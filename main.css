@@ -17,6 +17,7 @@ a:hover{
 .header{
     position: fixed;
     right: 0;
+    z-index: 5000000000;
 }
 ul{
     list-style: none;
@@ -57,6 +58,12 @@ ul{
 .about ul li{
     margin: 50px;
 }
+.sns-list{
+    display: flex;
+}
+.sns-list li{
+    margin: 40px;
+}
 .github {
     color: black;
 }
@@ -69,7 +76,6 @@ ul{
     text-align: center;
     font-family: 'Vibes', cursive;
 }
-
 
 #hero{
     width: 30vw;
@@ -117,10 +123,10 @@ ul{
     font-size: 14px;
 }
 
-.section ul{
+.product-list{
     display: flex;
 }
-.section ul li{
+.product-list li{
     margin: 10px;
 }
 .list-image{
@@ -132,4 +138,18 @@ footer{
     width: 100vw;
     height: 100px;
     text-align: center;
+}
+/*スマホ対応*/
+@media screen and (max-width: 1024px){
+    .top-logo img{
+        width: 70vw;
+    }
+    .product-list{
+        display: block;
+    }
+    .menu{
+        font-size: 20px;
+    }
+
+
 }

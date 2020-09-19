@@ -1,5 +1,5 @@
 body{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     margin: 0;
     color: rgba(85,85,85,1);
@@ -56,7 +56,7 @@ ul{
 }
 */
 .top-logo{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -271,7 +271,7 @@ table td{
 }
 
 footer{
-    width: 100vw;
+    width: 100%;
     height: 100px;
     text-align: center;
 }

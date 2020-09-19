@@ -50,6 +50,7 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .section{
     display: flex;
@@ -58,6 +59,63 @@ ul{
     margin: 20px;
     padding: 10px;
 
+}
+.scroll{
+    position: absolute;
+    left: 50%;
+    bottom: 80px;
+    width: 30px;
+    height: 50px;
+    margin-left: -15px;
+    border: 2px solid rgba(85,85,85,1);
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+.scroll:before{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: '';
+    margin-left: -3px;
+    width: 6px;
+    height: 6px;
+    background: rgba(85,85,85,1);;
+    border-radius: 100%;
+    -webkit-animation: animation 2s infinite;
+    animation: animation 2s infinite;
+    box-sizing: border-box;
+}
+@-webkit-keyframes animation {
+    0% {
+    -webkit-transform: translate(0, 0);
+    opacity: 0;
+    }
+    40% {
+    opacity: 1;
+    }
+    80% {
+    -webkit-transform: translate(0, 20px);
+    opacity: 0;
+    }
+    100% {
+    opacity: 0;
+    }
+}
+@keyframes animation {
+    0% {
+    transform: translate(0, 0);
+    opacity: 0;
+    }
+    40% {
+    opacity: 1;
+    }
+    80% {
+    transform: translate(0, 20px);
+    opacity: 0;
+    }
+    100% {
+    opacity: 0;
+    }
 }
 .sns-list{
     display: flex;

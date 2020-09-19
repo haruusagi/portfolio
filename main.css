@@ -27,7 +27,7 @@ a:hover{
 ul{
     list-style: none;
 }
-
+/*メニュー削除
 .menu{
     margin-top: 20px;
     margin-right: 20px;
@@ -43,6 +43,7 @@ ul{
 .menu li a {
     border-bottom:none;
 }
+*/
 .top-logo{
     width: 100vw;
     height: 100vh;
@@ -164,7 +165,8 @@ footer{
     .product-list{
         display: block;
     }
+    /*メニュー削除
     .menu{
         font-size: 20px;
-    }
+    }*/
 }

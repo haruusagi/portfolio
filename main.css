@@ -67,7 +67,7 @@ ul{
     width: 30px;
     height: 50px;
     margin-left: -15px;
-    border: 2px solid rgba(85,85,85,1);
+    border: 2px solid  rgba(85,85,85,1);
     border-radius: 50px;
     box-sizing: border-box;
 }
@@ -79,7 +79,7 @@ ul{
     margin-left: -3px;
     width: 6px;
     height: 6px;
-    background: rgba(85,85,85,1);;
+    background:  #FFAAEB;
     border-radius: 100%;
     -webkit-animation: animation 2s infinite;
     animation: animation 2s infinite;

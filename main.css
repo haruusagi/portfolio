@@ -75,6 +75,12 @@ ul{
 .qiita{
     color: #55C500;
     border-bottom:none;
+    width: 48px;
+    height: 48px;
+}
+.qiita img{
+    width: 48px;
+    height: 48px;
 }
 .amazon{
     color: #fd7e14;
@@ -149,6 +155,7 @@ footer{
     height: 100px;
     text-align: center;
 }
+
 /*スマホ対応*/
 @media screen and (max-width: 1024px){
     .top-logo img{

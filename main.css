@@ -5,20 +5,30 @@ body{
     color: rgba(85,85,85,1);
 }
 h1{
+    position: relative;
     background-size:cover;
     text-align: center;
     font-family: 'Vibes', cursive;
     font-size: xx-large;
 }
+h1:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7px;
+    background: -webkit-repeating-linear-gradient(-45deg,  #FFAAEB,  #FFAAEB 2px, #fff 2px, #fff 4px);
+    background: repeating-linear-gradient(-45deg,  #FFAAEB,  #FFAAEB 2px, #fff 2px, #fff 4px);
+}
 a{
-    color: rgba(85,85,85,1);
+    color: #ff21cb;
     text-decoration: none;
-    border-bottom: 2px solid #f08080;
     width: 100%;
     height: 100%;
 }
 a:hover{
-    color:  #FFAAEB;
+    color: #FFAAEB;
 }
 .header{
     position: fixed;

@@ -35,7 +35,6 @@ ul{
     justify-content: flex-end;
     font-size: 30px;
     font-family: 'Vibes', cursive;
-    
 }
 .menu li{
     list-style: none;
@@ -126,7 +125,6 @@ ul{
     padding: 5px;
     background-color: powderblue;
     font-size: 16px;
-    
 }
 .box__description{
     margin: 0;
@@ -142,7 +140,8 @@ ul{
 }
 .list-image{
     border-radius: 10%;
-    border: 1px solid pink;
+    width: 300px;
+    height: 300px;
 }
 
 footer{
